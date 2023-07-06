@@ -3,15 +3,19 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "start": "nx serve",
+    "start": "npm start",
     "build": "nx build",
     "test": "nx test"
   },
   "private": true,
   "dependencies": {
     "@swc/helpers": "~0.5.0",
+    "autoprefixer": "^9.8.8",
+    "postcss": "^8.4.24",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-router-dom": "6.11.2",
+    "sonarlint": "^1.1.0",
     "tslib": "^2.3.0"
   },
   "devDependencies": {
@@ -50,6 +54,7 @@
     "nx-cloud": "latest",
     "prettier": "^2.6.2",
     "react-refresh": "^0.10.0",
+    "tailwindcss": "^3.3.2",
     "ts-jest": "^29.1.0",
     "ts-node": "10.9.1",
     "typescript": "~5.1.3",
