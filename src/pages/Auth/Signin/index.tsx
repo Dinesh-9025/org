@@ -1,9 +1,17 @@
 import React from 'react';
 import logo from 'src/assets/Images/logo.jpg'
 // import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 
 export default function Signin() {
+    const navigate = useNavigate();
+
+    const handleButtonClick = () => {
+console.log("dashboard")        
+navigate('/dashboard'); // Navigate to '/new-route'
+      };
+
   return (
     <div className="w-full h-screen flex items-center justify-center">
       <section className="w-3/5 h-2/5 flex flex-col items-center justify-center ">
@@ -17,18 +25,18 @@ export default function Signin() {
             <label className="w-[30%] text-sm text-thin text-gray-500">
               Email<span className="mandatory-icon text-red-500">*</span>
             </label>
-            <input className="w-[70%] h-[40px] rounded-md border" type="email" />
+            <input className="w-[70%] h-[40px] rounded-md border p-[5px]" type="email" />
           </div>
 
           <div className="w-[100] mb-[20px] items-center flex">
             <label className="w-[30%] text-sm text-thin text-gray-500">
               Password<span className="mandatory-icon text-red-500">*</span>
             </label>
-            <input className="w-[70%] h-[40px] rounded-md border" type="password" />
+            <input className="w-[70%] h-[40px] rounded-md border p-[5px]" type="password" />
           </div>
 
-          <div className=" w-[100%] flex justify-center bg-[#1a3b6f] p-[10px] text-[white] rounded-md">
-            <button>LOG IN</button>
+          <div className=" w-[100%] flex justify-center bg-[#1a3b6f] p-[10px] text-[white] rounded-md cursor-pointer" onClick={()=> handleButtonClick()}>
+            <button >LOG IN</button>
           </div>
         </div>
         <div className='flex space-x-2'>
