@@ -13,18 +13,18 @@ export default function Header() {
   const [filterOpen, setFilterOpen] = useState(false);
 
   return (
-    <div className="">
+    <div className="ml-[30px] mr-[30px]">
       <div className="w-[100%] flex items-center ">
         <section className="w-[45%] ">
           <div className="flex w-[100%]">
-            <div className="w-[10%] pl-[0px] p-[10px]">
+            <div className="w-[15%] pl-[0px] p-[10px]">
               <span className="">
                 <img className="w-[300px]" src={logo} alt={'logo'} />
               </span>
             </div>
             <div className="border-[0.40px]"></div>
 
-            <div className="w-[90%] p-[20px]">
+            <div className="w-[85%] p-[20px]">
               <ul className="flex items-center justify-between w-[100%] text-sm">
                 <li className="flex items-center justify-between font-light font-bold">
                   <img
@@ -63,12 +63,12 @@ export default function Header() {
         </section>
 
         <section className="w-[55%]">
-          <div className="w-[100%] flex">
-            <div className="w-[30%]"></div>
+          <div className="w-[100%] flex flex-row gap-8 justify-end">
+            {/* <div className="w-[30%]"></div> */}
 
-            <div className="flex flex-row gap-8 w-[70%]">
+            {/* <div className="flex "> */}
             <div className="relative">
-              <div className="flex items-center justify-between">
+              <div className="flex items-center justify-between whitespace-nowrap">
                 <button
                   className="flex items-center justify-between rounded-md pr-[13px] pl-[13px] pt-[8px] pb-[8px] text-[0.80rem] font-light bg-[#E6E9ED] relative"
                   onClick={() => setFilterOpen(!filterOpen)}
@@ -95,30 +95,30 @@ export default function Header() {
                   type="search"
                 />
               </div>
-              <div className="flex items-center">
+              <div className="flex items-center justify-content">
                 {/* <div>
                   <b className="animate-ping bg-red-600">.</b>
                 </div> */}
                 <img
-                  className="cursor-pointer h-[22px] w-[22px]"
+                  className="cursor-pointer h-[22px] w-[22px] min-h-[20px] min-w-[20px]"
                   src={Notification}
                   alt="notification"
                 />
               </div>
-              <div className="flex items-center">
+              <div className="flex items-center justify-content">
                 <img
-                  className="cursor-pointer h-[22px] w-[22px]"
+                  className="cursor-pointer h-[22px] w-[22px] min-h-[20px] min-w-[20px]"
                   src={Setting}
                   alt="Setting"
                 />
               </div>
-              <div className="flex items-center text-sm gap-r-[0px]">
+              <div className="flex items-center text-sm gap-r-[0px] nowrap whitespace-nowrap">
                 <p className="w-[30px] h-[30px] rounded-full bg-blue-500 p-[5px] mr-[2px] text-[0.75rem] text-white flex items-center justify-content">
                   JS
                 </p>
                 John Smith
               </div>
-            </div>
+            {/* </div> */}
           </div>
         </section>
       </div>

@@ -18,7 +18,7 @@ export default function RightSide() {
             </div>
 
             <div className="p-[15px] rounded-lg object-contain ">
-              <img className="rounded-2xl flex " src={card1} alt="card1"></img>
+              <img className="rounded-2xl h-[200px]" src={card1} alt="card1"></img>
             </div>
           </div>
 
@@ -33,7 +33,7 @@ export default function RightSide() {
 
               <div className="p-[15px] rounded-lg object-contain">
                 <img
-                  className="rounded-2xl flex w-full h-[230px]"
+                  className="rounded-2xl flex w-full h-[200px]"
                   src={card2}
                   alt="card1"
                 ></img>
@@ -52,7 +52,7 @@ export default function RightSide() {
 
               <div className="p-[15px] rounded-lg object-contain">
                 <img
-                  className="rounded-2xl flex w-full"
+                  className="rounded-2xl w-full h-[200px]"
                   src={card3}
                   alt="card1"
                 ></img>
@@ -70,7 +70,7 @@ export default function RightSide() {
               </div>
 
               <div className="p-[15px] rounded-lg ">
-                <img className="rounded-2xl flex" src={card1} alt="card1"></img>
+                <img className="rounded-2xl h-[200px]" src={card1} alt="card1"></img>
               </div>
             </div>
           </div>

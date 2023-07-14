@@ -145,7 +145,7 @@ export default function LeftSide() {
                         <div className="rounded-2xl border-[1px]">
                           <div className="object-contain w-[100%] flex gap-4 p-[20px] pb-[10px]">
                             <img
-                              className="rounded-lg w-[100px]"
+                              className="rounded-lg w-[100px] h-16"
                               src={card1}
                               alt={'card'}
                             ></img>
@@ -179,7 +179,7 @@ export default function LeftSide() {
                         <div className="rounded-2xl border-[1px]">
                           <div className="object-contain w-[100%] flex gap-4 p-[20px] pb-[10px]">
                             <img
-                              className="rounded-lg w-[100px]"
+                              className="rounded-lg w-[100px] h-16"
                               src={card1}
                               alt={'card'}
                             ></img>
@@ -212,7 +212,7 @@ export default function LeftSide() {
                         <div className="rounded-2xl border-[1px]">
                           <div className="object-contain w-[100%] flex gap-4 p-[20px] pb-[10px]">
                             <img
-                              className="rounded-lg w-[100px]"
+                              className="rounded-lg w-[100px] h-16"
                               src={card1}
                               alt={'card'}
                             ></img>
@@ -252,7 +252,7 @@ export default function LeftSide() {
                         <div className="rounded-2xl border-[1px]">
                           <div className="object-contain w-[100%] flex gap-4 p-[20px] pb-[10px]">
                             <img
-                              className="rounded-lg w-[100px]"
+                              className="rounded-lg w-[100px] h-16"
                               src={card1}
                               alt={'card'}
                             ></img>

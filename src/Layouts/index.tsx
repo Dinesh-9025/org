@@ -10,8 +10,8 @@ export default function Layout({ children } :any) {
       {/* <div className="fixed"> */}
       {/* <SideMenu /> */}
       {/* </div> */}
-      <div className="flex flex-col flex-grow">
-        <section className="sticky top-0 bg-white border-b-[1px] z-40 ml-[30px] mr-[30px] fixed">
+      <div className="flex flex-col flex-grow ">
+        <section className="sticky top-0 bg-white border-b-[1px] z-40 fixed">
           <Header />
         </section>
         <section className="flex-grow overflow-y-auto px-[30px] pt-[20px] pb-[20px]">
